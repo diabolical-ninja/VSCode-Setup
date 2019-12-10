@@ -1,0 +1,39 @@
+// Place your settings in this file to overwrite the default settings
+{
+    // Python Settings
+    "python.linting.enabled": false,
+    "autoDocstring.docstringFormat": "google",
+    
+    // Code
+    "code-runner.clearPreviousOutput": true,
+    
+    // Data Science Related
+    "jupyter.appendResults": true,
+    "python.dataScience.askForKernelRestart": false,
+    
+    // Themeing
+    "workbench.colorTheme": "Charcoal Oceanic Next",
+
+    // VS-Code Config
+    "window.zoomLevel": 1,
+    "editor.minimap.enabled": false,
+    "window.openFilesInNewWindow": "on",
+    "extensions.showRecommendationsOnlyOnDemand": true,
+    "extensions.ignoreRecommendations": true,
+    "explorer.sortOrder": "type",
+    "explorer.confirmDragAndDrop": false,
+
+    "vsicons.dontShowNewVersionMessage": true,
+    
+    // Beautify Defaults
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    
+    // Git Settings
+    "search.useGlobalIgnoreFiles": true    
+    
+}

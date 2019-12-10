@@ -2,7 +2,7 @@
 
 Basic script to help setup VS Code on a new system that runs bash.
 
-Assumes you've got VS Code [installed](https://code.visualstudio.com/download) and takes advantage of the [command line interface](https://code.visualstudio.com/docs/editor/command-line).
+Assumes you have VS Code [installed](https://code.visualstudio.com/download) and takes advantage of the [command line interface](https://code.visualstudio.com/docs/editor/command-line).
 
 
 ## Installation
@@ -17,7 +17,7 @@ sh vscode_setup.sh
 
 ### Desired Extensions
 
-In `vscode_setup.sh` populate the array with your favourite extensions, noting to adhere to the format of {author}.{package name}, eg for [Microsoft Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) extension it would be: `"ms-python.python"`
+In `vscode_setup.sh` populate the array with your favourite extensions, noting to adhere to the format of {author}.{package name}, eg for the [Microsoft Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python) extension it would be: `"ms-python.python"`
 
 Note, the extension name is available from the `itemName` in the marketplace URL, eg https://marketplace.visualstudio.com/items?itemName=ms-python.python
 

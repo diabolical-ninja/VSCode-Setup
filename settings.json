@@ -1,8 +1,21 @@
 // Place your settings in this file to overwrite the default settings
 {
     // Python Settings
-    "python.linting.enabled": false,
     "autoDocstring.docstringFormat": "google",
+    "python.linting.enabled": false,    
+    "python.formatting.provider": "autopep8",
+    "python.linting.pycodestyleEnabled": true,
+    
+    // Update linting & formatting to allow 100 characters per line
+    "python.linting.pycodestyleArgs": [
+    "--max-line-length=100",
+        "--ignore=E251,E266"
+    ],
+
+    "python.formatting.autopep8Args": [
+        "--max-line-length=100",
+            "--ignore=E251,E266"
+    ],
     
     // Code
     "code-runner.clearPreviousOutput": true,
@@ -35,5 +48,5 @@
     
     // Git Settings
     "search.useGlobalIgnoreFiles": true    
-    
+   
 }

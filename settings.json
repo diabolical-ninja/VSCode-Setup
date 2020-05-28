@@ -5,6 +5,7 @@
     "python.linting.enabled": false,    
     "python.formatting.provider": "autopep8",
     "python.linting.pycodestyleEnabled": true,
+    "python.linting.pylintEnabled": true,
     
     // Update linting & formatting to allow 100 characters per line
     "python.linting.pycodestyleArgs": [

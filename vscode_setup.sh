@@ -10,6 +10,7 @@ wanted_extensions=(
     "ms-python.python"
     "vscode-icons-team.vscode-icons"
     "jebbs.plantuml"
+    "mhutchie.git-graph"
 )
 
 # Get currently installed extensions

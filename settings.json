@@ -1,11 +1,14 @@
 // Place your settings in this file to overwrite the default settings
 {
     // Python Settings
+    "python.linting.enabled": true,    
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
     "autoDocstring.docstringFormat": "google",
-    "python.linting.enabled": false,    
-    "python.formatting.provider": "autopep8",
     "python.linting.pycodestyleEnabled": true,
-    "python.linting.pylintEnabled": true,
+    "python.showStartPage": false,
+    
     
     // Update linting & formatting to allow 100 characters per line
     "python.linting.pycodestyleArgs": [
@@ -24,6 +27,7 @@
     // Data Science Related
     "jupyter.appendResults": true,
     "python.dataScience.askForKernelRestart": false,
+    "jupyter.runStartupCommands": ["%load_ext autoreload", "%autoreload 2"],
     
     // Themeing
     "workbench.colorTheme": "Charcoal Oceanic Next",
@@ -31,11 +35,13 @@
     // VS-Code Config
     "window.zoomLevel": 1,
     "editor.minimap.enabled": false,
+    "editor.renderIndentGuides": true,
     "window.openFilesInNewWindow": "on",
     "extensions.showRecommendationsOnlyOnDemand": true,
     "extensions.ignoreRecommendations": true,
     "explorer.sortOrder": "type",
     "explorer.confirmDragAndDrop": false,
+    "window.restoreWindows": "none",
 
     "vsicons.dontShowNewVersionMessage": true,
     

@@ -8,6 +8,14 @@
     "autoDocstring.docstringFormat": "google",
     "python.linting.pycodestyleEnabled": true,
     "python.showStartPage": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "python.sortImports.args": [
+        "--profile",
+        "black"
+    ],
     
     
     // Update linting & formatting to allow 100 characters per line
